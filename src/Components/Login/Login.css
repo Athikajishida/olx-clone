@@ -1,0 +1,64 @@
+.loginParentDiv {
+  background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(0, 0, 0);
+    width: 350px;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .loginParentDiv .input {
+    margin-bottom: 20px;
+    width: 240px;
+    height: 40px;
+    background-color: rgb(223, 223, 223);
+    font-size: 16px;
+    border: 0px solid;
+    border-radius: 4px;
+    padding-left: 10px;
+  }
+  
+  .loginParentDiv button {
+    width: 70%;
+    height: 48px;
+    /* border-color: transparent; */
+    background-color: #002f34;
+    color: whitesmoke;
+    font-weight: 900;
+    font-size: 18px;
+  }
+  .loginParentDiv button:hover {
+    font-size: 18px;
+    background-color: #004148;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .loginParentDiv a {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    margin-bottom: 20px;
+    text-decoration: underline;
+    color: blue;
+  }
+
+  .login-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .signup-path{
+    display: flex;
+  }
+  

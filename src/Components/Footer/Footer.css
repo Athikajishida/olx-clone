@@ -1,0 +1,64 @@
+.footerParentDiv {
+  width: 100vw;
+}
+.footerParentDiv .content {
+  display: flex;
+  justify-content: space-between;
+  
+  background: #ebeeef;
+  padding: 16px 16px 32px;
+}
+.footerParentDiv .content .heading {
+  font-size: 14px;
+  font-weight: bolder;
+}
+
+.footerParentDiv .footer {
+ 
+  padding: 16px;
+  background: #002f34;
+  color: whitesmoke;
+}
+
+
+
+.helloworld{
+  background-color: #002f34;
+  width: 170px;
+  padding-right: 48px;
+}
+
+.list li{
+  list-style-type:none;
+  font-size: 12px;
+  margin-top: 6px;
+  color: #002f34a3;
+}
+.list li:hover{
+  color: black;
+  cursor: pointer;
+}
+
+.footer-top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 16px 0px;
+}
+
+.footer-first{
+  border-right: 2px solid white;
+}
+
+.other{
+  height: 60px;
+  width: 144px;
+}
+
+.footer-bottom{
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  height: 26px;
+}
+

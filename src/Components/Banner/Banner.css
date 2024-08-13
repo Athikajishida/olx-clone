@@ -1,0 +1,51 @@
+.bannerParentDiv {
+  padding-top: 4em;
+}
+
+.menuBar {
+ 
+  display: flex;
+  padding: 14px;
+}
+
+
+
+.categoryMenu{
+  display: flex;
+  align-items: center;
+}
+
+.categoryMenu span {
+  margin-right: 16px;
+  font-weight: bolder;
+}
+
+.otherQuickOptions {
+  display: flex;
+  font-size: 14px;
+}
+
+.otherQuickOptions span:hover{
+  color: rgb(0, 103, 101);
+  cursor: pointer;
+}
+.otherQuickOptions span {
+  padding: 10px;
+}
+
+.bannerChildDiv .banner {
+  position: relative;
+  width: 100vw;
+}
+.bannerChildDiv .banner img{
+  width: 100vw;
+}
+
+@media only screen and (max-width: 700px) {
+  .otherQuickOptions {
+    display: none;
+  }
+  .bannerChildDiv .banner {
+    position: relative;
+  }
+}
